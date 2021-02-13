@@ -1,0 +1,8 @@
+body {color: blue;}
+#myBox (color:red !important;)/* Синтаксическая ошибка (верное написание #myBox {color:red !important})*/
+div#box #myBox {color: green;}/* задает цвет элементу с id='myBox' в элементе div id='box' */
+.myBox{color: inherit}
+p.myBox#myBox {
+z-index: 99999;
+color: black;
+}/* задает цвет элементу p class='myBox' id='myBox' */
