@@ -7,6 +7,401 @@
   <title>Document</title>
 </head>
 <body>
-
+  <header class="main-header">
+    <a href='' class="main-header__logo logo">
+      <svg>
+        <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
+    </a>
+    <nav class="main-header__nav navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Blog</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Features</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Pricing</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Documentation</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="main-header__social social">
+      <li class="social__item social__item--facebook">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#facebook-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--telegram">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#telegram-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--twitter">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#twitter-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--medium">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#medium-logo'></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <a href="" class="main-header__login-btn login-btn main-btn">Get started</a>
+  </header>
+  <main>
+    <section class="main-slider">
+      <section class="main-slider__slider-one">
+        <h1 class="main-slider__title"></h1>
+        <h3 class="main-slider__header"></h3>
+        <p class="main-slider__description"></p>
+        <button class="main-slider__btn-video"></button>
+      </section>
+      <section class="main-slider__slider-two">
+        <h3 class="main-slider__header"></h3>
+        <p class="main-slider__description"></p>
+      </section>
+      <section class="main-slider__slider-three">
+        <h3 class="main-slider__header"></h3>
+        <p class="main-slider__description"></p>
+      </section>
+      <div class="main-slider__btn-container">
+        <input type="radio" name="main-slider-1" id="main-slider-1">
+        <input type="radio" name="main-slider-2" id="main-slider-2">
+        <input type="radio" name="main-slider-3" id="main-slider-3">
+      </div>
+    </section>
+    <section class="partners">
+      <ul class="partners__list">
+        <li class="partners__item">
+          <a href="" class="partners__link">
+            <svg class="partners__img">
+              <use xlink:href="img/sprite.svg#partners-bitbucket"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="" class="partners__link">
+            <svg class="partners__img">
+              <use xlink:href="img/sprite.svg#partners-apple-watch"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="" class="partners__link">
+            <svg class="partners__img">
+              <use xlink:href="img/sprite.svg#partners-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="" class="partners__link">
+            <svg class="partners__img">
+              <use xlink:href="img/sprite.svg#partners-atlassian"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <a href="" class="partners__link">
+            <svg class="partners__img">
+              <use xlink:href="img/sprite.svg#partners-audi"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="promo">
+      <h2 class="promo-title"></h2>
+      <h3 class="promo__header"></h3>
+      <p class="promo__description"></p>
+      <div class="promo__container-btn">
+        <button class="promo__btn promo__btn--video"></button>
+        <button class="promo__btn"></button>
+      </div>
+    </section>
+    <section class="about-us">
+      <h2 class="about-us__header"></h2>
+      <h3 class="about-us__title"></h3>
+      <ul class="about-us__list">
+        <li class="about-us__item">
+          <svg class="about-us__img">
+            <use></use>
+          </svg>
+          <h4 class="about-us__titlle-item"></h4>
+          <p class="about-us__descriptor-item"></p>
+        </li>
+        <li class="about-us__item">
+          <svg class="about-us__img">
+            <use></use>
+          </svg>
+          <h4 class="about-us__titlle-item"></h4>
+          <p class="about-us__descriptor-item"></p>
+        </li>
+        <li class="about-us__item">
+          <svg class="about-us__img">
+            <use></use>
+          </svg>
+          <h4 class="about-us__titlle-item"></h4>
+          <p class="about-us__descriptor-item"></p>
+        </li>
+        <li class="about-us__item">
+          <svg class="about-us__img">
+            <use></use>
+          </svg>
+          <h4 class="about-us__titlle-item"></h4>
+          <p class="about-us__descriptor-item"></p>
+        </li>
+      </ul>
+      <div class="about-us__container-btn">
+        <button class="about-us__btn main-btn main-btn--read"></button>
+        <span class="about-us__span"></span>
+        <button class="about-us__btn main-btn"></button>
+      </div>
+    </section>
+    <section class="achievements">
+      <section class="achievements__block achievements__block--productivity">
+        <svg class="achievements__img">
+          <use></use>
+        </svg>
+        <span class="achievements__quantity"></span>
+        <p class="achievements__description"></p>
+      </section>
+      <section class="achievements__block achievements__block--users">
+        <svg class="achievements__img">
+          <use></use>
+        </svg>
+        <span class="achievements__quantity"></span>
+        <p class="achievements__description"></p>
+      </section>
+    </section>
+    <section class="resources">
+      <h2 class="resources__header"></h2>
+      <h3 class="resources__title"></h3>
+      <section class="resources__container">
+        <button class="resources__btn">
+          <svg class="resources__btn-img">
+            <use></use>
+          </svg>
+        </button>
+        <article class="blog">
+          <div class="blog__img-container">
+            <img src="" alt="" class="blog__img">
+            <img src="" alt="" class="blog__img">
+            <img src="" alt="" class="blog__img">
+          </div>
+          <div class="blog__info-container">
+            <h4 class="blog__title"></h4>
+            <p class="blog__description"></p>
+            <div class="blog__btn-container">
+              <a href="" class="blog__btn"></a>
+              <a href="" class="blog__btn"></a>
+            </div>
+          </div>
+        </article>
+        <button class="resources__btn">
+          <svg class="resources__btn-img">
+            <use></use>
+          </svg>
+        </button>
+        <div class="resources__radio-container">
+          <input type="radio" name="" id="" class="resources__radio-btn">
+          <input type="radio" name="" id="" class="resources__radio-btn">
+          <input type="radio" name="" id="" class="resources__radio-btn">
+        </div>
+      </section>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials__container">
+        <h3 class="testimonials__header"></h3>
+        <h4 class="testimonials__title"></h4>
+        <p class="testimonials__description"></p>
+      </div>
+      <div class="testimonials__container">
+        <div class="testimonials__review-container">
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+          <section class="testimonials__review review">
+            <p class="review__text"></p>
+            <img src="" alt="" class="review__img">
+          </section>
+        </div>
+        <div class="testimonials__radio-btn-container">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+          <input type="radio" name="" id="" class="testimonials__radio-btn">
+        </div>
+      </div>
+    </section>
+    <section class="customer-help">
+      <h3 class="customer-help__header"></h3>
+      <h4 class="customer-help__title"></h4>
+      <ul class="customer-help__list">
+        <li class="customer-help__item">
+          <p class="customer-help__question"></p>
+          <div class="customer-help__decision-container">
+            <p class="customer-help__decision-text"></p>
+            <a href="" class="customer-help__decision-btn"></a>
+          </div>
+        </li>
+        <li class="customer-help__item">
+          <p class="customer-help__question"></p>
+          <div class="customer-help__decision-container">
+            <p class="customer-help__decision-text"></p>
+            <a href="" class="customer-help__decision-btn"></a>
+          </div>
+        </li>
+        <li class="customer-help__item">
+          <p class="customer-help__question"></p>
+          <div class="customer-help__decision-container">
+            <p class="customer-help__decision-text"></p>
+            <a href="" class="customer-help__decision-btn"></a>
+          </div>
+        </li>
+        <li class="customer-help__item">
+          <p class="customer-help__question"></p>
+          <div class="customer-help__decision-container">
+            <p class="customer-help__decision-text"></p>
+            <a href="" class="customer-help__decision-btn"></a>
+          </div>
+        </li>
+        <li class="customer-help__item">
+          <p class="customer-help__question"></p>
+          <div class="customer-help__decision-container">
+            <p class="customer-help__decision-text"></p>
+            <a href="" class="customer-help__decision-btn"></a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="promo">
+      <h3 class="promo__header"></h3>
+      <h4 class="promo__title"></h4>
+      <p class="promo__description"></p>
+      <div class="promo__btn-container">
+        <a href="" class="promo__btn"></a>
+        <a href="" class="promo__btn promo__btn--document"></a>
+      </div>
+    </section>
+    <section class="mailing">
+      <div class="mailing__container">
+        <h4 class="mailing__title"></h4>
+        <p class="mailing__description"></p>
+      </div>
+      <div class="mailing__container">
+        <form action="" method="post" class="mailing__form">
+          <input type="email" name="" id="" class="mailing__input">
+          <button type="submit"></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <a href='' class="main-footer__logo logo">
+      <svg>
+        <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
+    </a>
+    <nav class="main-footer__nav navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Blog</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Features</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Pricing</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Documentation</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="main-footer__social social">
+      <li class="social__item social__item--facebook">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#facebook-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--telegram">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#telegram-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--twitter">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#twitter-logo'></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item social__item--medium">
+        <a href="#" class="social__link">
+          <svg>
+            <use xlink:href='img/sprite.svg#medium-logo'></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <a href="" class="main-footer__login-btn login-btn main-btn">Get started</a>
+  </footer>
 </body>
 </html>
